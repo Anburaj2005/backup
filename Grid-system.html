@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid-system</title>
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/fontawesome/css/all.min.css" rel="stylesheet">
+
+    <script src="../js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="app">
+        <div class="menu-toggle">
+            <div class="hamburger">
+                <span></span>
+            </div>
+        </div>
+
+        <aside class="sidebar">
+            <nav class="menu">
+                <ul class="sidemenu-list">
+                    <!-- <li class="home-lnk border-bottom "> <i class="fa fa-home edit-font ms-4 " aria-hidden="true"></i><a
+                            class="a-link ps-2" href="">
+                            Home
+                        </a>
+                    </li> -->
+                    <li class="sidemenu-list-item dropdown "><a class="a-link" href="#" data-bs-toggle="dropdown"
+                            id="dropLayout">
+                            <i class="fa-solid fa-anchor pe-3"></i></i>Foundation <i id="icon-style"
+                                class="fa fa-chevron-up"></i>
+                        </a>
+                        <ul class="dropdown-menu submenu ps-3" aria-labelledby="dropLayout">
+                            <li><a class="dropdown-item subitem" href="../Foundation/UI-introduction.html">Overview</a>
+                            </li>
+                            <li><a class="dropdown-item subitem" href="">Source Files</a></li>
+                            <li><a class="dropdown-item subitem" href="../Foundation/DNN.html">DNN</a></li>
+                            <li><a class="dropdown-item subitem" href="">UI Introduction</a></li>
+                            <li><a class="dropdown-item subitem" href="">Platform Scale</a></li>
+                            <li><a class="dropdown-item subitem" href="">Using Colors</a></li>
+                            <li><a class="dropdown-item subitem" href="">States</a></li>
+                            <li><a class="dropdown-item subitem" href="">Icons</a></li>
+                            <li><a class="dropdown-item subitem" href=""></a></li>
+                            <li><a class="dropdown-item subitem" href=""></a></li>
+                            <li><a class="dropdown-item subitem" href=""></a></li>
+
+                        </ul>
+                    </li>
+                    <li class="sidemenu-list-item dropdown"><a class="a-link" href="#" data-bs-toggle="dropdown"
+                            id="dropLayout">
+                            <i class="fa-regular fa-star pe-3"></i>Yakshna Solutions <i id="icon-style"
+                                class="fa fa-chevron-up"></i>
+                        </a>
+                        <ul class="dropdown-menu submenu ps-3" aria-labelledby="dropLayout">
+
+                            <li><a class="dropdown-item subitem" href="../Yakshna-Solutions/Button.html">Button</a></li>
+                            <li><a class="dropdown-item subitem" href="../Yakshna-Solutions/Card.html">Card</a></li>
+                            <li><a class="dropdown-item subitem" href="../Yakshna-Solutions/Color.html">Color</a></li>
+                            <li><a class="dropdown-item subitem"
+                                    href="../Yakshna-Solutions/Grid-system.html">Grid-System</a></li>
+                            <li><a class="dropdown-item subitem"
+                                    href="../Yakshna-Solutions/Illustrated-Icons.html">Illustrated-Icons</a>
+                            </li>
+                            <li><a class="dropdown-item subitem" href="../Yakshna-Solutions/Logo.html">Logo</a></li>
+                            <li><a class="dropdown-item subitem"
+                                    href="../yakshna-solutions/navigation.html">Navigation</a></li>
+                            <li><a class="dropdown-item subitem" href="../Yakshna-Solutions/Table.html">Table</a></li>
+                            <li><a class="dropdown-item subitem"
+                                    href="../Yakshna-Solutions/Typography.html">Typography</a></li>
+
+
+                            <li><a class="dropdown-item subitem" href="../Yakshna-Solutions/Assets.html">Assets</a></li>
+                        </ul>
+                    </li>
+                    <li class="sidemenu-list-item dropdown "><a class="a-link" href="#" data-bs-toggle="dropdown"
+                            id="dropLayout"> <i class="fa-regular fa-star pe-3"></i>Yakshna Corp
+
+                            <i id="icon-style" class="fa fa-chevron-up"></i>
+                        </a>
+                        <ul class="dropdown-menu submenu ps-3" aria-labelledby="dropLayout">
+                            <li><a class="dropdown-item subitem" href="../YakshnaCorp/Button.html">Button</a></li>
+                            <li><a class="dropdown-item subitem" href="../YakshnaCorp/Card.html">Card</a></li>
+                            <li><a class="dropdown-item subitem" href="../YakshnaCorp/Color.html">Color</a></li>
+                            <li><a class="dropdown-item subitem" href="../YakshnaCorp/Data-Visualization.html">Data-Visualization</a></li>
+                            <li><a class="dropdown-item subitem" href="../YakshnaCorp/Graphics.html">Graphics</a></li>
+                            <li><a class="dropdown-item subitem" href="../YakshnaCorp/Grid-System.html">Grid-System</a></li>
+                            <li><a class="dropdown-item subitem" href="../Yakshna-Solutions/Illustrated-Icons.html">Illustrated-Icons</a>
+                            </li>
+                            <li><a class="dropdown-item subitem" href="../YakshnaCorp/Logo.html">Logo</a></li>
+                            <li><a class="dropdown-item subitem" href="../YakshnaCorp/Navigation.html">Navigation</a></li>
+                            <li><a class="dropdown-item subitem" href="../YakshnaCorp/Tabs.html">Tabs</a></li>
+                            <li><a class="dropdown-item subitem" href="../YakshnaCorp/Typography.html">Typography</a>
+                            </li>
+                            <li><a class="dropdown-item subitem" href="../YakshnaCorp/Assets.html">Assets</a></li>
+                        </ul>
+                    </li>
+                    <li class="sidemenu-list-item dropdown"><a class="a-link" href="#" data-bs-toggle="dropdown"
+                            id="dropLayout"> <i class="fa-regular fa-star pe-3"></i>Tax2efile
+                            <i id="icon-style" class="fa fa-chevron-up"></i>
+                        </a>
+                        <ul class="dropdown-menu submenu ps-3" aria-labelledby="dropLayout">
+                            <li><a class="dropdown-item subitem" href="../Tax2efile/Button.html">Button</a></li>
+
+                            <li><a class="dropdown-item subitem" href="../Tax2efile/Card.html">Card</a></li>
+                            <li><a class="dropdown-item subitem" href="../Tax2efile/Color.html">Color</a></li>
+                            <li><a class="dropdown-item subitem" href="../Tax2efile/Grid-System.html">Grid-System</a></li>
+                            <li><a class="dropdown-item subitem" href="../Tax2efile/Illustrated-Icons.html">Illustrations-Icons</a> </li>
+                            <li><a class="dropdown-item subitem" href="../Tax2efile/Logo.html">Logo</a></li>
+                            <li><a class="dropdown-item subitem" href="../Tax2efile/Table.html">Table</a></li>
+                            <li><a class="dropdown-item subitem" href="../Tax2efile/Typography.html">Typography</a></li>
+
+                            <li><a class="dropdown-item subitem" href="../Tax2efile/Assets.html">Assets</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="sidemenu-list-item dropdown"><a class="a-link" href="#" data-bs-toggle="dropdown"
+                            id="dropLayout"> <i class="fa-regular fa-star pe-3"></i>TestWheel
+                            <i id="icon-style" class="fa fa-chevron-up "></i>
+                        </a>
+                        <ul class="dropdown-menu submenu ps-3" aria-labelledby="dropLayout">
+                            <li><a class="dropdown-item subitem" href="../TestWheel/Button.html">Button</a></li>
+
+                            <li><a class="dropdown-item subitem" href="../TestWheel/Call-To-Action.html">Card-to-Action</a></li>
+                            <li><a class="dropdown-item subitem" href="../TestWheel/Card.html">Card</a></li>
+
+                            <li><a class="dropdown-item subitem" href="../TestWheel/Color.html">Color</a></li>
+                            <li><a class="dropdown-item subitem" href="../TestWheel/Data-Visualization.html">Data-Visualization</a></li>
+                            <li><a class="dropdown-item subitem" href="../TestWheel/Graphics.html">Graphics</a></li>
+
+                            <li><a class="dropdown-item subitem" href="../TestWheel/Grid-System.html">Grid-System</a></li>
+                            <li><a class="dropdown-item subitem" href="../Tax2efile/Illustrated-Icons.html">Illustrations-Icons</a> </li>
+                            <li><a class="dropdown-item subitem" href="../Tax2efile/Logo.html">Logo</a></li>
+                            <li><a class="dropdown-item subitem" href="../TestWheel/Navigation.html">Navigation</a></li>
+                            <li><a class="dropdown-item subitem" href="../TestWheel/Table.html">Table</a></li>
+                            <li><a class="dropdown-item subitem" href="../TestWheel/Typography.html">Typography</a></li>
+                            <li><a class="dropdown-item subitem" href="../TestWheel/Assets.html">Assets</a></li>
+                        </ul>
+                    </li>
+                    <li class="sidemenu-list-item dropdown"><a class="a-link" href="#" data-bs-toggle="dropdown"
+                            id="dropLayout"> <i class="fa-regular fa-star pe-3"></i>MySetAside
+                            <i id="icon-style" class="fa fa-chevron-up "></i>
+                        </a>
+                        <ul class="dropdown-menu submenu ps-3" aria-labelledby="dropLayout">
+                            <li><a class="dropdown-item subitem" href="">Button</a></li>
+                            <li><a class="dropdown-item subitem" href="">Card</a></li>
+                            <li><a class="dropdown-item subitem" href="../MySetAside/Color.html">Color</a></li>
+                            <li><a class="dropdown-item subitem" href="">Data-Visualization</a></li>
+                            <li><a class="dropdown-item subitem" href="">Illustrated-Icons</a></li>
+                            <li><a class="dropdown-item subitem" href="">Logo</a></li>
+                            <li><a class="dropdown-item subitem" href="">Navigation</a></li>
+                            <li><a class="dropdown-item subitem" href="">Typography</a></li>
+                            <li><a class="dropdown-item subitem" href="">Assets</a></li>
+                        </ul>
+                    </li>
+                    <li class="sidemenu-list-item dropdown"><a class="a-link" href="#" data-bs-toggle="dropdown"
+                            id="dropLayout"> <i class="fa-regular fa-star pe-3"></i>COGO!
+                            <i id="icon-style" class="fa fa-chevron-up "></i>
+                        </a>
+                        <ul class="dropdown-menu submenu ps-3" aria-labelledby="dropLayout">
+                            <li><a class="dropdown-item subitem" href="../COGO/Button.html">Button</a></li>
+                            <li><a class="dropdown-item subitem" href="../COGO/Card.html">Card</a></li>
+                            <li><a class="dropdown-item subitem" href="../COGO/Color.html">Color</a></li>
+                            <li><a class="dropdown-item subitem" href="../COGO/Data-Visualization.html">Data-Visualization</a></li>
+                            <li><a class="dropdown-item subitem" href="../COGO/Illustrated-Icons.html">Illustrated-Icons</a></li>
+                            <li><a class="dropdown-item subitem" href="../COGO/Logo.html">Logo</a></li>
+                            <li><a class="dropdown-item subitem" href="../COGO/Navigation.html">Navigation</a></li>
+                            <li><a class="dropdown-item subitem" href="../COGO/Typography.html">Typography</a></li>
+                            <li><a class="dropdown-item subitem" href="../COGO/Assets.html">Assets</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="sidemenu-list-item dropdown"><a class="a-link" href="" data-bs-toggle="dropdown"
+                            id="dropLayout"> <i class="fa-regular fa-star pe-3"></i>Miscellaneous
+                            <i id="icon-style" class="fa fa-chevron-up "></i>
+                        </a>
+                        <ul class="dropdown-menu submenu ps-3" aria-labelledby="dropLayout">
+                            <li><a class="dropdown-item subitem"
+                                    href="../Miscellaneous/Certification.html">Certification</a></li>
+                            <li><a class="dropdown-item subitem" href="../Miscellaneous/Glyph-Icons.html">Glyph-Icons</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <ul class=" sidemenu-list-bottom">
+                        <li class="sidemenu-list-item-bottom">Yakshna Products</li>
+                        <li class="sidemenu-list-item-bottom">Design System</li>
+                        <li class="sidemenu-list-item-bottom">2023 V1.0.0</li>
+                    </ul>
+                </ul>
+            </nav>
+        </aside>
+        <main class="content typo-bg">
+            <div class="container-fluid mt-2">
+                <div class="border-bottom py-4">
+                    <h1 class="heading ">Grid System</h1>
+
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- <h4 class="dtls-txt mt-4 py-3">Implementation</h4> -->
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="nav d-flex justify-content-end mt-4 pt-4">
+                            <li class="nav-item"><a class="nav-link nav-border active grid-btn grid-col "
+                                    aria-current="page" href="#grid">Grid
+                                    Sizes</a></li>
+                            <li class="nav-item"><a class="nav-link nav-border grid-btn grid-col " href="#gutter">Grid
+                                    Gutter</a></li>
+                            <li class="nav-item"><a class="nav-link nav-border grid-btn grid-col " href="#mixgrid">Mix
+                                    Grids</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Grid -->
+                <h4 class="sub-header fw-bold" id="grid">Grid </h4>
+                <p class=" btn-txt py-4">Mobile-first, 12-column, responsive grid that you can use to create flexible
+                    layouts for a variety of screen sizes and device types. A 12-column grid can be viewed as a 6-column
+                    grid, 4-column grid, 3-column grid and 2-column grid. The variations within the grid give us a lot
+                    of options when laying out content. And is a good system of constraints to guide your designs.</p>
+                <p class="text-content mt-3 mb-0">Size 1 of 12</p>
+
+                <table class="table-bor">
+                    <tr>
+                        <td class="td-bor">12</td>
+                        <td class="td-bor">12</td>
+                        <td class="td-bor">12</td>
+                        <td class="td-bor">12</td>
+                        <td class="td-bor">12</td>
+                        <td class="td-bor">12</td>
+                        <td class="td-bor">12</td>
+                        <td class="td-bor">12</td>
+                        <td class="td-bor">12</td>
+                        <td class="td-bor">12</td>
+                        <td class="td-bor">12</td>
+                        <td class="td-bor">12</td>
+                    </tr>
+                </table>
+
+                <p class="text-content mt-3 mb-0">Size 1 of 6</p>
+                <table class="table-bor">
+                    <tr>
+                        <td class="td-bor">6</td>
+                        <td class="td-bor">6</td>
+                        <td class="td-bor">6</td>
+                        <td class="td-bor">6</td>
+                        <td class="td-bor">6</td>
+                        <td class="td-bor">6</td>
+                    </tr>
+                </table>
+
+                <p class="text-content mt-3 mb-0">Size 1 of 4</p>
+                <table class="table-bor">
+                    <tr>
+                        <td class="td-bor">4</td>
+                        <td class="td-bor">4</td>
+                        <td class="td-bor">4</td>
+                        <td class="td-bor">4</td>
+                    </tr>
+                </table>
+
+                <p class="text-content mt-3 mb-0">Size 1 of 3</p>
+                <table class="table-bor">
+                    <tr>
+                        <td class="td-bor">3</td>
+                        <td class="td-bor">3</td>
+                        <td class="td-bor">3</td>
+                    </tr>
+                </table>
+
+                <p class="text-content mt-3 mb-0">Size 1 of 2</p>
+                <table class="table-bor">
+                    <tr>
+                        <td class="td-bor">2</td>
+                        <td class="td-bor">2</td>
+                    </tr>
+                </table>
+
+                <p class="text-content mt-3 mb-0">Size 1 of 1</p>
+                <table class="table-bor">
+                    <tr>
+                        <td class="td-bor">1</td>
+                    </tr>
+                </table>
+
+                <!-- Example -->
+                <h4 class="ex-header pt-4">Example:</h4>
+                <div class="result-box align-cen">
+                    <table class="table-result">
+                        <tr>
+                            <td class="td-res">Col</td>
+                            <td class="td-res">Col</td>
+                            <td class="td-res">Col</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <!-- Code -->
+                <div class="row mt-4">
+                    <div class="col-12 col-lg-6">
+                        <div class="code-box">
+                            <div class="fix-btn">
+
+                                <button onclick="copy_data(select_txt20)" class="copybtn">Copy</button>
+                            </div>
+                            <pre id="select_txt20"><code class="language-css">
+        &lt;div class=<span class="red">"container"</span>&gt;
+          &lt;div class=<span class="red">"row"</span>&gt;
+            &lt;div class=<span class="red">"col"</span>&gt;Col&lt;/div&gt;
+            &lt;div class=<span class="red">"col"</span>&gt;Col&lt;/div&gt;
+            &lt;div class=<span class="red">"col"</span>&gt;Col&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        </code></pre>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-3">
+                        <h5 class="note-head">Notes:</h5>
+                        <p class="note-txt">This example for three equal-width columns, on all devices and screen
+                            widths.</p>
+                    </div>
+                </div>
+                <!-- End of Code -->
+
+                <!-- Grid Gutter -->
+                <h4 class="sub-header fw-bold  mt-5 pt-5" id="gutter">Grid Gutter</h4>
+                <p class="text-content">Our grid columns have a 8px padding on either side that results in a 16px gutter
+                    between columns. Even though our columns are fluid, the gutter remains constant.</p>
+                <div class="container">
+                    <div class="row row-bg gap-2 p-2">
+                        <div class="col td-bor white align-cen">3</div>
+                        <div class="col td-bor white align-cen">3</div>
+                        <div class="col td-bor white align-cen">3</div>`
+                    </div>
+                </div>
+
+                <!-- Example -->
+                <h4 class="ex-header pt-4">Example:</h4>
+                <div class="result-box align-cen">
+                    <div class="container px-4">
+                        <div class="row gx-5">
+                            <div class="col">
+                                <div class="p-2 border bg-light">column</div>
+                            </div>
+                            <div class="col">
+                                <div class="p-2 border bg-light">column</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Code -->
+                <div class="row mt-4">
+                    <div class="col-12 col-lg-6">
+                        <div class="code-box">
+                            <div class="fix-btn">
+
+                                <button onclick="copy_data(select_txt21)" class="copybtn">Copy</button>
+                            </div>
+                            <pre id="select_txt21"><code class="language-css">
+&lt;div class=<span class="red">"container"</span>&gt;
+&lt;div class=<span class="red">"row gx-5"</span>&gt;
+&lt;div class=<span class="red">"col"</span>&gt;
+&lt;div class="p-2"&gt;column&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=<span class="red">"col"</span>&gt;
+&lt;div class="p-2"&gt;column&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    </code></pre>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-3">
+                        <h5 class="note-head">Notes:</h5>
+                        <p class="note-txt">.gx-* classes are used for the horizontal gutter widths.<br />
+                            .gy-* classes are used for the vertical gutter widths.<br />
+                            .g-* classes can be used to control both the horizontal & vertical gutter widths.
+                        </p>
+                    </div>
+                </div>
+                <!-- End of Code -->
+
+                <!-- Mixed Grids -->
+                <h4 class="sub-header fw-bold mt-5 pt-5" id="mixgrid">Mixed grids</h4>
+                <p class="text-content">The grid layout is easily extended by nesting and mixing different column sizes.
+                </p>
+
+                <div class="container">
+                    <div class="row gap-2 px-2">
+                        <div class="col-5 td-bor white align-cen">6</div>
+                        <div class="col-3 td-bor white align-cen">3</div>
+                        <div class="col-3 td-bor white align-cen">3</div>
+                    </div>
+                    <div class="row gap-2 p-2">
+                        <div class="col-5 td-bor white align-cen">6</div>
+                        <div class="col-4 td-bor white align-cen">4</div>
+                        <div class="col-2 td-bor white align-cen">2</div>
+                    </div>
+                </div>
+
+                <!-- Example -->
+                <h4 class="ex-header pt-4">Example:</h4>
+                <div class="result-box align-cen">
+                    <div class="container">
+                        <div class="row px-4">
+                            <div class="col-3 p-2 border bg-light">col-3</div>
+                            <div class="col-6 p-2 border bg-light">col-6</div>
+                            <div class="col-3 p-2 border bg-light">col-3</div>
+                        </div>
+                        <div class="row px-4 mt-3">
+                            <div class="col-5 p-2 border bg-light">col-5</div>
+                            <div class="col-3 p-2 border bg-light">col-3</div>
+                            <div class="col-4 p-2 border bg-light">col-4</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Code  -->
+                <div class="row mt-4">
+                    <div class="col-12 col-lg-6">
+                        <div class="code-box">
+                            <div class="fix-btn">
+
+                                <button onclick="copy_data(select_txt22)" class="copybtn">Copy</button>
+                            </div>
+                            <pre class="select_txt22"><code >
+&lt;div class=<span class="red">"container"</span>&gt;
+&lt;div class=<span class="red">"row"</span>&gt;
+&lt;div class=<span class="red">"col-3"</span>&gt;col-3&lt;/div&gt;
+&lt;div class=<span class="red">"col-6"</span>&gt;col-6&lt;/div&gt;
+&lt;div class=<span class="red">"col-3"</span>&gt;col-3&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=<span class="red">"row"</span>&gt;
+&lt;div class=<span class="red">"col-5"</span>&gt;col-5&lt;/div&gt;
+&lt;div class=<span class="red">"col-3"</span>&gt;col-3&lt;/div&gt;
+&lt;div class=<span class="red">"col-4"</span>&gt;col-4&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    </code></pre>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-3">
+                        <h5 class="note-head">Notes:</h5>
+                        <p class="note-txt">We also can set the width of one column and have the sibling columns
+                            automatically resize around it.</p>
+                    </div>
+                </div>
+                <!--End of Code  -->
+
+                <!-- Responsive Column -->
+                <h4 class="sub-header mt-5 pt-5">Responsive Columns</h4>
+                <p class="text-content">The Bootstrap grid system has six classes:</p>
+                <ul>
+                    <li><b>.col-</b> (<span class="bo-under">extra small devices</span> - screen width less than 576px)
+                    </li>
+                    <li><b>.col-sm-</b> (<span class="bo-under">small devices</span> - screen width equal to or greater
+                        than 576px)</li>
+                    <li><b>.col-md-</b> (<span class="bo-under">medium devices</span> - screen width equal to or greater
+                        than 768px)</li>
+                    <li><b>.col-lg-</b> (<span class="bo-under">large devices</span> - screen width equal to or greater
+                        than 992px)</li>
+                    <li><b>.col-xl-</b> (<span class="bo-under">xlarge devices</span> - screen width equal to or greater
+                        than 1200px)</li>
+                    <li><b>.col-xxl-</b> (<span class="bo-under">xxlarge devices</span> - screen width equal to or
+                        greater than 1400px)</li>
+                </ul>
+
+                <!-- Example -->
+                <h4 class="ex-header pt-4">Example:</h4>
+                <div class="result-box align-cen">
+                    <div class="container">
+                        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+                        <div class="row px-4">
+                            <div class="col-md-7 p-2 border bg-light">.col-md-7</div>
+                            <div class="col-6 col-md-5 p-2 border bg-light">.col-6 .col-md-5</div>
+                        </div>
+
+                        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+                        <div class="row px-4 mt-3">
+                            <div class="col-6 col-md-4 p-2 border bg-light">.col-6 .col-md-4</div>
+                            <div class="col-6 col-md-4 p-2 border bg-light">.col-6 .col-md-4</div>
+                            <div class="col-6 col-md-4 p-2 border bg-light">.col-6 .col-md-4</div>
+                        </div>
+
+                        <!-- Columns are always 50% wide, on mobile and desktop -->
+                        <div class="row px-4 mt-3">
+                            <div class="col-6 p-2 border bg-light">.col-6</div>
+                            <div class="col-6 p-2 border bg-light">.col-6</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Code -->
+                <div class="row mt-4">
+                    <div class="col-12 col-lg-6">
+                        <div class="code-box">
+                            <div class="fix-btn">
+
+                                <button onclick="copy_data(select_txt23)" class="copybtn">Copy</button>
+                            </div>
+                            <pre id="select_txt23"><code class="language-css">
+&lt;div class=<span class="red">"container"</span>&gt;
+
+<span class="grey">&lt!-- Stack the columns on mobile by making one full-width and the other half-width --&gt;</span>
+&lt;div class=<span class="red">"row"</span>&gt;
+&lt;div class=<span class="red">"col-md-7"</span>&gt;.col-md-7&lt;/div&gt;
+&lt;div class=<span class="red">"col-6 col-md-5"</span>&gt;.col-6 .col-md-5&lt;/div&gt;
+&lt;/div&gt;
+
+<span class="grey">&lt!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop --&gt;</span>
+&lt;div class=<span class="red">"row"</span>&gt;
+&lt;div class=<span class="red">"col-6 col-md-4"</span>&gt;.col-6 .col-md-4&lt;/div&gt;
+&lt;div class=<span class="red">"col-6 col-md-4"</span>&gt;.col-6 .col-md-4&lt;/div&gt;
+&lt;div class=<span class="red">"col-6 col-md-4"</span>&gt;.col-6 .col-md-4&lt;/div&gt;
+&lt;/div&gt;
+
+<span class="grey">&lt!-- Columns are always 50% wide, on mobile and desktop --&gt;</span>
+&lt;div class=<span class="red">"row"</span>&gt;
+&lt;div class=<span class="red">"col-6"</span>&gt;.col-6&lt;/div&gt;
+&lt;div class=<span class="red">"col-6"</span>&gt;.col-6&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+    </code></pre>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-2">
+                        <h5 class="note-head">Notes:</h5>
+                        <p class="note-txt">Based on the screens, the columns will automatically stack on top of each
+                            other</p>
+                    </div>
+                </div>
+                <!-- End of code -->
+            </div>
+
+
+            <div class="main-content container-fluid pt-4">
+                <h3 class="mt-4 py-3 border-bottom">Best Practices</h3>
+                <p class="btn-txt pt-4">Grid systems are used for creating page layouts through a series of rows and
+                    columns that house your content. Here's how the Bootstrap grid system works:</p>
+
+                <p class="btn-txt">Creating these grids should be one of the first steps to starting a design. A
+                    12-column grid can be viewed as a 6-column grid, 4-column grid, 3-column grid and 2-column grid.
+                    The ariations within the grid give us a lot of options when laying out content. And is a good
+                    system of constraints to guide your designs.</p>
+                <p class="dtls-txt fw-bold pt-5">Padding:</p>
+                <p class="btn-txt"> Like the idea of creating constraints
+                    using grids for artboards, padding does
+                    something similar within grouped layers and components by defining the pixel spacing around
+                    content.
+                    This is possible with the content-aware feature within Adobe XD. Having to manually resize
+                    buttons and cards within your design can be a pain. With the padding feature, we can now
+                    preset and define the spacing around content within components like buttons so that when we
+                    update the copy, the shapes resize on their own giving us a very responsive way to speed up
+                    our workflow</p>
+
+                <p class="dtls-txt pt-5">Usage</p>
+                <p class="btn-txt"> <span class="">Container: </span> Bootstrap requires a containing element
+                    to wrap site contents and house our grid system. You may choose one of two containers to use in
+                    your projects. Note that, due to padding and more, neither container is nestable.</p>
+                <p class="btn-txt">Use class ".container" for a responsive fixed width container. (
+                    <code>&lt;div class="container"&gt; &lt;/div&gt;</code>)
+                </p>
+                <p class="btn-txt"> </p>
+                <p class="btn-txt">Use class .container-fluid for a full width container, spanning the entire width
+                    of your viewport. (
+                    <code>&lt;div class="container-fluid"&gt; &lt;/div&gt; </code>)
+                </p>
+
+
+            </div>
+        </main>
+    </div>
+    <script src="../js/jquery.min.js"></script>
+    <script>
+        const menu_toggle = document.querySelector('.menu-toggle');
+        const sidebar = document.querySelector('.sidebar');
+
+        menu_toggle.addEventListener('click', () => {
+            menu_toggle.classList.toggle('is-active');
+            sidebar.classList.toggle('is-active');
+        });
+    </script>
+    <script>
+        function copy_data(containerid) {
+            var range = document.createRange();
+            range.selectNode(containerid);
+            window.getSelection().removeAllRanges();
+            window.getSelection().addRange(range);
+            document.execCommand("copy");
+            window.getSelection().removeAllRanges();
+
+        }
+    </script>
+    <script>
+        $('.a-link').on('click', function () {
+            $(this).toggleClass('active')
+        });
+    </script>
+
+</body>
+
+</html>

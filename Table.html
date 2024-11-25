@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>table</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/fontawesome/css/all.min.css" rel="stylesheet">
+
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+
+
+
+</head>
+
+<body>
+    <div class="app">
+        <div class="menu-toggle">
+            <div class="hamburger">
+                <span></span>
+            </div>
+        </div>
+        <aside class="sidebar">
+            <nav class="menu">
+                <ul class="sidemenu-list">
+                    <!-- <li class="home-lnk border-bottom "> <i class="fa fa-home edit-font ms-4 " aria-hidden="true"></i><a
+                            class="a-link ps-2" href="">
+                            Home
+                        </a>
+                    </li> -->
+                    <li class="sidemenu-list-item dropdown "><a class="a-link" href="#" data-bs-toggle="dropdown"
+                            id="dropLayout">
+                            <i class="fa-solid fa-anchor pe-3"></i></i>Foundation <i id="icon-style"
+                                class="fa fa-chevron-up"></i>
+                        </a>
+                        <ul class="dropdown-menu submenu ps-3" aria-labelledby="dropLayout">
+                            <li><a class="dropdown-item subitem" href="../Foundation/UI-introduction.html">Overview</a>
+                            </li>
+                            <li><a class="dropdown-item subitem" href="">Source Files</a></li>
+                            <li><a class="dropdown-item subitem" href="../Foundation/DNN.html">DNN</a></li>
+                            <li><a class="dropdown-item subitem" href="">UI Introduction</a></li>
+                            <li><a class="dropdown-item subitem" href="">Platform Scale</a></li>
+                            <li><a class="dropdown-item subitem" href="">Using Colors</a></li>
+                            <li><a class="dropdown-item subitem" href="">States</a></li>
+                            <li><a class="dropdown-item subitem" href="">Icons</a></li>
+                            <li><a class="dropdown-item subitem" href=""></a></li>
+                            <li><a class="dropdown-item subitem" href=""></a></li>
+                            <li><a class="dropdown-item subitem" href=""></a></li>
+
+                        </ul>
+                    </li>
+                    <li class="sidemenu-list-item dropdown"><a class="a-link" href="#" data-bs-toggle="dropdown"
+                            id="dropLayout">
+                            <i class="fa-regular fa-star pe-3"></i>Yakshna Solutions <i id="icon-style"
+                                class="fa fa-chevron-up"></i>
+                        </a>
+                        <ul class="dropdown-menu submenu ps-3" aria-labelledby="dropLayout">
+
+                            <li><a class="dropdown-item subitem" href="../Yakshna-Solutions/Button.html">Button</a></li>
+                            <li><a class="dropdown-item subitem" href="../Yakshna-Solutions/Card.html">Card</a></li>
+                            <li><a class="dropdown-item subitem" href="../Yakshna-Solutions/Color.html">Color</a></li>
+                            <li><a class="dropdown-item subitem"
+                                    href="../Yakshna-Solutions/Grid-system.html">Grid-System</a></li>
+                            <li><a class="dropdown-item subitem"
+                                    href="../Yakshna-Solutions/Illustrated-Icons.html">Illustrated-Icons</a>
+                            </li>
+                            <li><a class="dropdown-item subitem" href="../Yakshna-Solutions/Logo.html">Logo</a></li>
+                            <li><a class="dropdown-item subitem"
+                                    href="../yakshna-solutions/navigation.html">Navigation</a></li>
+                            <li><a class="dropdown-item subitem" href="../Yakshna-Solutions/Table.html">Table</a></li>
+                            <li><a class="dropdown-item subitem"
+                                    href="../Yakshna-Solutions/Typography.html">Typography</a></li>
+
+
+                            <li><a class="dropdown-item subitem" href="../Yakshna-Solutions/Assets.html">Assets</a></li>
+                        </ul>
+                    </li>
+                    <li class="sidemenu-list-item dropdown "><a class="a-link" href="#" data-bs-toggle="dropdown"
+                            id="dropLayout"> <i class="fa-regular fa-star pe-3"></i>Yakshna Corp
+
+                            <i id="icon-style" class="fa fa-chevron-up"></i>
+                        </a>
+                        <ul class="dropdown-menu submenu ps-3" aria-labelledby="dropLayout">
+                            <li><a class="dropdown-item subitem" href="../YakshnaCorp/Button.html">Button</a></li>
+                            <li><a class="dropdown-item subitem" href="../YakshnaCorp/Card.html">Card</a></li>
+                            <li><a class="dropdown-item subitem" href="../YakshnaCorp/Color.html">Color</a></li>
+                            <li><a class="dropdown-item subitem" href="../YakshnaCorp/Data-Visualization.html">Data-Visualization</a></li>
+                            <li><a class="dropdown-item subitem" href="../YakshnaCorp/Graphics.html">Graphics</a></li>
+                            <li><a class="dropdown-item subitem" href="../YakshnaCorp/Grid-System.html">Grid-System</a></li>
+                            <li><a class="dropdown-item subitem" href="../Yakshna-Solutions/Illustrated-Icons.html">Illustrated-Icons</a>
+                            </li>
+                            <li><a class="dropdown-item subitem" href="../YakshnaCorp/Logo.html">Logo</a></li>
+                            <li><a class="dropdown-item subitem" href="../YakshnaCorp/Navigation.html">Navigation</a></li>
+                            <li><a class="dropdown-item subitem" href="../YakshnaCorp/Tabs.html">Tabs</a></li>
+                            <li><a class="dropdown-item subitem" href="../YakshnaCorp/Typography.html">Typography</a>
+                            </li>
+                            <li><a class="dropdown-item subitem" href="../YakshnaCorp/Assets.html">Assets</a></li>
+                        </ul>
+                    </li>
+                    <li class="sidemenu-list-item dropdown"><a class="a-link" href="#" data-bs-toggle="dropdown"
+                            id="dropLayout"> <i class="fa-regular fa-star pe-3"></i>Tax2efile
+                            <i id="icon-style" class="fa fa-chevron-up"></i>
+                        </a>
+                        <ul class="dropdown-menu submenu ps-3" aria-labelledby="dropLayout">
+                            <li><a class="dropdown-item subitem" href="../Tax2efile/Button.html">Button</a></li>
+
+                            <li><a class="dropdown-item subitem" href="../Tax2efile/Card.html">Card</a></li>
+                            <li><a class="dropdown-item subitem" href="../Tax2efile/Color.html">Color</a></li>
+                            <li><a class="dropdown-item subitem" href="../Tax2efile/Grid-System.html">Grid-System</a></li>
+                            <li><a class="dropdown-item subitem" href="../Tax2efile/Illustrated-Icons.html">Illustrations-Icons</a> </li>
+                            <li><a class="dropdown-item subitem" href="../Tax2efile/Logo.html">Logo</a></li>
+                            <li><a class="dropdown-item subitem" href="../Tax2efile/Table.html">Table</a></li>
+                            <li><a class="dropdown-item subitem" href="../Tax2efile/Typography.html">Typography</a></li>
+
+                            <li><a class="dropdown-item subitem" href="../Tax2efile/Assets.html">Assets</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="sidemenu-list-item dropdown"><a class="a-link" href="#" data-bs-toggle="dropdown"
+                            id="dropLayout"> <i class="fa-regular fa-star pe-3"></i>TestWheel
+                            <i id="icon-style" class="fa fa-chevron-up "></i>
+                        </a>
+                        <ul class="dropdown-menu submenu ps-3" aria-labelledby="dropLayout">
+                            <li><a class="dropdown-item subitem" href="../TestWheel/Button.html">Button</a></li>
+
+                            <li><a class="dropdown-item subitem" href="../TestWheel/Call-To-Action.html">Card-to-Action</a></li>
+                            <li><a class="dropdown-item subitem" href="../TestWheel/Card.html">Card</a></li>
+
+                            <li><a class="dropdown-item subitem" href="../TestWheel/Color.html">Color</a></li>
+                            <li><a class="dropdown-item subitem" href="../TestWheel/Data-Visualization.html">Data-Visualization</a></li>
+                            <li><a class="dropdown-item subitem" href="../TestWheel/Graphics.html">Graphics</a></li>
+
+                            <li><a class="dropdown-item subitem" href="../TestWheel/Grid-System.html">Grid-System</a></li>
+                            <li><a class="dropdown-item subitem" href="../Tax2efile/Illustrated-Icons.html">Illustrations-Icons</a> </li>
+                            <li><a class="dropdown-item subitem" href="../Tax2efile/Logo.html">Logo</a></li>
+                            <li><a class="dropdown-item subitem" href="../TestWheel/Navigation.html">Navigation</a></li>
+                            <li><a class="dropdown-item subitem" href="../TestWheel/Table.html">Table</a></li>
+                            <li><a class="dropdown-item subitem" href="../TestWheel/Typography.html">Typography</a></li>
+                            <li><a class="dropdown-item subitem" href="../TestWheel/Assets.html">Assets</a></li>
+                        </ul>
+                    </li>
+                    <li class="sidemenu-list-item dropdown"><a class="a-link" href="#" data-bs-toggle="dropdown"
+                            id="dropLayout"> <i class="fa-regular fa-star pe-3"></i>MySetAside
+                            <i id="icon-style" class="fa fa-chevron-up "></i>
+                        </a>
+                        <ul class="dropdown-menu submenu ps-3" aria-labelledby="dropLayout">
+                            <li><a class="dropdown-item subitem" href="">Button</a></li>
+                            <li><a class="dropdown-item subitem" href="">Card</a></li>
+                            <li><a class="dropdown-item subitem" href="../MySetAside/Color.html">Color</a></li>
+                            <li><a class="dropdown-item subitem" href="">Data-Visualization</a></li>
+                            <li><a class="dropdown-item subitem" href="">Illustrated-Icons</a></li>
+                            <li><a class="dropdown-item subitem" href="">Logo</a></li>
+                            <li><a class="dropdown-item subitem" href="">Navigation</a></li>
+                            <li><a class="dropdown-item subitem" href="">Typography</a></li>
+                            <li><a class="dropdown-item subitem" href="">Assets</a></li>
+                        </ul>
+                    </li>
+                    <li class="sidemenu-list-item dropdown"><a class="a-link" href="#" data-bs-toggle="dropdown"
+                            id="dropLayout"> <i class="fa-regular fa-star pe-3"></i>COGO!
+                            <i id="icon-style" class="fa fa-chevron-up "></i>
+                        </a>
+                        <ul class="dropdown-menu submenu ps-3" aria-labelledby="dropLayout">
+                            <li><a class="dropdown-item subitem" href="../COGO/Button.html">Button</a></li>
+                            <li><a class="dropdown-item subitem" href="../COGO/Card.html">Card</a></li>
+                            <li><a class="dropdown-item subitem" href="../COGO/Color.html">Color</a></li>
+                            <li><a class="dropdown-item subitem" href="../COGO/Data-Visualization.html">Data-Visualization</a></li>
+                            <li><a class="dropdown-item subitem" href="../COGO/Illustrated-Icons.html">Illustrated-Icons</a></li>
+                            <li><a class="dropdown-item subitem" href="../COGO/Logo.html">Logo</a></li>
+                            <li><a class="dropdown-item subitem" href="../COGO/Navigation.html">Navigation</a></li>
+                            <li><a class="dropdown-item subitem" href="../COGO/Typography.html">Typography</a></li>
+                            <li><a class="dropdown-item subitem" href="../COGO/Assets.html">Assets</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="sidemenu-list-item dropdown"><a class="a-link" href="" data-bs-toggle="dropdown"
+                            id="dropLayout"> <i class="fa-regular fa-star pe-3"></i>Miscellaneous
+                            <i id="icon-style" class="fa fa-chevron-up "></i>
+                        </a>
+                        <ul class="dropdown-menu submenu ps-3" aria-labelledby="dropLayout">
+                            <li><a class="dropdown-item subitem"
+                                    href="../Miscellaneous/Certification.html">Certification</a></li>
+                            <li><a class="dropdown-item subitem" href="../Miscellaneous/Glyph-Icons.html">Glyph-Icons</a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <ul class=" sidemenu-list-bottom">
+                        <li class="sidemenu-list-item-bottom">Yakshna Products</li>
+                        <li class="sidemenu-list-item-bottom">Design System</li>
+                        <li class="sidemenu-list-item-bottom">2023 V1.0.0</li>
+                    </ul>
+                </ul>
+            </nav>
+        </aside>
+        <main class="content table-bg">
+            <div class="container-fluid  mt-2">
+                <div class="border-bottom py-4 ">
+                    <h1 class="heading ">Tables & List</h1>
+                </div>
+                <!-- <div class="main-content">
+                    <p class="btn-txt">A table tree is an expandable table for showing nested hierarchies of
+                        information.</p>
+                    <h4 class="py-3">Content</h4>
+                    <p class="btn-txt">Table tree displays a table with expandable nested rows. The basic table tree has configurable
+                        props for header titles, columns, column widths, and an array of table items</p>
+                        <h4 class="py-3">Usage</h4>
+                        <p class="btn-txt">Tables are containers for displaying information. They allow users to quickly scan, sort, compare, and take action on large amounts of data.</p>
+                </div> -->
+                <div class="main-content">
+                    <p class="example">Responsive tables</p>
+                    <p class="btn-txt">Tables are containers for displaying information. They allow users to quickly
+                        scan, sort, compare, and take action on large amounts of data.</p>
+                </div>
+
+                <div class="table-responsive  col-md-12 col-lg-8">
+                    <h4 class="pt-5 pb-3">Example 1</h4>
+
+                    <table class="table job-card bg-white">
+                        <thead>
+                            <tr>
+                                <th scope="col">Job Number</th>
+                                <th scope="col">Job Title</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>5866678</th>
+                                <td>Lead System Engineer</td>
+
+                            </tr>
+                            <tr>
+                                <td>5866677</th>
+                                <td>Lead end user Support and Property Accountability</td>
+
+                            </tr>
+                            <tr>
+                                <td>5866676</th>
+                                <td colspan="2">Business Process Manager</td>
+
+                            </tr>
+                            <tr>
+                                <td>5866674</th>
+                                <td colspan="2">Service Desk Support</td>
+
+                            </tr>
+                            <tr>
+                                <td>5866673</th>
+                                <td>Database Administrator</td>
+
+                            </tr>
+                            <tr>
+                                <td>5866672</th>
+                                <td colspan="2">Application Support Specialist</td>
+
+                            </tr>
+                            <tr>
+                                <td>5866671</th>
+                                <td colspan="2">Python Developer</td>
+
+                            </tr>
+                            <tr>
+                                <td>5866670</th>
+                                <td colspan="2">Administrative Assistant II</td>
+
+                            </tr>
+                            <tr>
+                                <td>5866669</th>
+                                <td>Proposal Manager</td>
+
+                            </tr>
+                            <tr>
+                                <td>5866668</th>
+                                <td>VDACS - Oracle DBA</td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+            <div class="container-fluid">
+
+                <h4 class="pt-5 pb-2">Exmaple 2</h4>
+                <div class="table-responsive  col-md-12 col-lg-12">
+                    <table class="table job-const">
+
+                        <tbody>
+                            <tr>
+                                <td>Constellation 1</td>
+                                <td>Function Area 1</td>
+                                <td>541511</td>
+                                <td>Custom Computer Programming Services</td>
+
+                            </tr>
+                            <tr>
+                                <td>Constellation 1</td>
+                                <td>Function Area 2</td>
+                                <td>541512</td>
+                                <td>Computer Systems and Design Services</td>
+
+                            </tr>
+                            <tr>
+                                <td>Constellation 1</td>
+                                <td>Function Area 3</td>
+                                <td>541513</td>
+                                <td>Computer Facilities Management Services</td>
+
+                            </tr>
+                            <tr>
+                                <td>Constellation 1</td>
+                                <td>Function Area 4</td>
+                                <td>541519</td>
+                                <td>Other Computer Related Services</td>
+
+                            </tr>
+                            <tr>
+                                <td>Constellation 2</td>
+                                <td>Function Area 1</td>
+                                <td>541511</td>
+                                <td>Custom Computer Programming Services</td>
+
+                            </tr>
+                            <tr>
+                                <td>Constellation 2</td>
+                                <td>Function Area 2</td>
+                                <td>541512</td>
+                                <td>Computer Systems and Design Services</td>
+
+                            </tr>
+                            <tr>
+                                <td>Constellation 2</td>
+                                <td>Function Area 3</td>
+                                <td>541513</td>
+                                <td>Computer Facilities Management Services</td>
+
+                            </tr>
+                            <tr>
+                                <td>Constellation 2</th>
+                                <td>Function Area 4</td>
+                                <td>541519</td>
+                                <td>Other Computer Related Services</td>
+                            </tr>
+                            <tr>
+                                <td class="fw-bold">DUNS# 07-985-7229</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="fw-bold">CAGE# 7EHL5</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="fw-bold">EIN# 30-0872906</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+            </div>
+            <div class="container-fluid ">
+                <h4 class="pt-5 pb-2">Example 3</h4>
+                <div class="job-drtn">
+                    <ul>
+                        <li> <span class="fw-bold">Small Start Date :</span> 01-19-2018</li>
+                        <li><span class="fw-bold">Micro Start Date :</span> 01-19-2018</li>
+                        <li><span class="fw-bold">Minority-Owned Start Date :</span> 01-19-2018</li>
+                        <li><span class="fw-bold">SWaM Expiration Date :</span> 01-19-2023</li>
+                        <li><span class="fw-bold">Pcard :</span> Y</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container-fluid ">
+                <h4 class="pt-5 pb-3">Example 4</h4>
+                <div class="row ps-4">
+                    <div class="row  cntrct-job">
+
+                        <div class="col-md-3 col-sm-12 ">
+                            <p class="fw-bold py-3 my-2 px-4">54151S</p>
+                        </div>
+                        <div class="col-md-6 col-sm-12 job-srvcs">
+                            <div class="border-left">
+                                <p class="py-3 my-2 px-5">IT Professional Services</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row  cntrct-job mt-1">
+                        <div class="col-md-3 col-sm-12 ">
+                            <p class="fw-bold py-3 my-2 px-4">Contract Maximum</p>
+                        </div>
+                        <div class="col-md-6 col-sm-12 job-srvcs">
+                            <div class="border-left">
+                                <p class="py-3 my-2 px-5">$12,100,000,000 The contract maximum represents the total
+                                    requirement
+                                    for the life of the contract (including options, if exercised)</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row  cntrct-job mt-1">
+                        <div class="col-md-3 col-sm-12 ">
+                            <p class="fw-bold py-3 my-2 px-4">Period of Performance</p>
+                        </div>
+                        <div class="col-md-6 col-sm-12 job-srvcs">
+                            <div class="border-left">
+                                <p class="py-3 my-2 px-5">One five-year base Ordering Period Four one-year Ordering
+                                    Period
+                                    option (if exercised)</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row  cntrct-job mt-1">
+                        <div class="col-md-3 col-sm-12 ">
+                            <p class="fw-bold py-3 my-2 px-4">Pricing Structure</p>
+                        </div>
+                        <div class="col-md-6 col-sm-12 job-srvcs">
+                            <div class="border-left">
+                                <p class="py-3 my-2 px-5">FFP, T&M, CR</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row  cntrct-job mt-1">
+                        <div class="col-md-3 col-sm-12 ">
+                            <p class="fw-bold py-3 my-2 px-4">Performance-Based Contracting</p>
+                        </div>
+                        <div class="col-md-6 col-sm-12 job-srvcs">
+                            <div class="border-left">
+                                <p class="py-3 my-2 px-5">Preferred method for acquiring services</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row  cntrct-job mt-1">
+                        <div class="col-md-3 col-sm-12 ">
+                            <p class="fw-bold py-3 my-2 px-4">Fair Opportunity to be Considered</p>
+                        </div>
+                        <div class="col-md-6 col-sm-12 job-srvcs">
+                            <div class="border-left">
+                                <p class="py-3 my-2 px-5">Subject to FAR 16.505</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row  cntrct-job mt-1">
+                        <div class="col-md-3 col-sm-12 ">
+                            <p class="fw-bold py-3 my-2 px-4">Ordering Guidance and Process</p>
+                        </div>
+                        <div class="col-md-6 col-sm-12 job-srvcs">
+                            <div class="border-left">
+                                <p class="py-3 my-2 px-5">See Chapter 3 Ordering Guide - Ordering Guidance</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script>
+        const menu_toggle = document.querySelector('.menu-toggle');
+        const sidebar = document.querySelector('.sidebar');
+
+        menu_toggle.addEventListener('click', () => {
+            menu_toggle.classList.toggle('is-active');
+            sidebar.classList.toggle('is-active');
+        });
+    </script>
+
+
+
+    <script>
+        $('.a-link').on('click', function () {
+            $(this).toggleClass('active')
+        });
+    </script>
+
+</body>
+
+
+
+
+</html>

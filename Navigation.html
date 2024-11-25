@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>navigation</title>
+  <link href="../css/style.css" rel="stylesheet">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/fontawesome/css/all.min.css" rel="stylesheet">
+
+  <!-- <script src="../js/bootstrap.min.js"></script> -->
+  <script src="../js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="app">
+    <div class="menu-toggle">
+      <div class="hamburger">
+        <span></span>
+      </div>
+    </div>
+
+    <aside class="sidebar">
+      <nav class="menu">
+          <ul class="sidemenu-list">
+              <!-- <li class="home-lnk border-bottom "> <i class="fa fa-home edit-font ms-4 " aria-hidden="true"></i><a
+                      class="a-link ps-2" href="">
+                      Home
+                  </a>
+              </li> -->
+              <li class="sidemenu-list-item dropdown "><a class="a-link" href="#" data-bs-toggle="dropdown"
+                      id="dropLayout">
+                      <i class="fa-solid fa-anchor pe-3"></i></i>Foundation <i id="icon-style"
+                          class="fa fa-chevron-up"></i>
+                  </a>
+                  <ul class="dropdown-menu submenu ps-3" aria-labelledby="dropLayout">
+                      <li><a class="dropdown-item subitem" href="../Foundation/UI-introduction.html">Overview</a>
+                      </li>
+                      <li><a class="dropdown-item subitem" href="">Source Files</a></li>
+                      <li><a class="dropdown-item subitem" href="../Foundation/DNN.html">DNN</a></li>
+                      <li><a class="dropdown-item subitem" href="">UI Introduction</a></li>
+                      <li><a class="dropdown-item subitem" href="">Platform Scale</a></li>
+                      <li><a class="dropdown-item subitem" href="">Using Colors</a></li>
+                      <li><a class="dropdown-item subitem" href="">States</a></li>
+                      <li><a class="dropdown-item subitem" href="">Icons</a></li>
+                      <li><a class="dropdown-item subitem" href=""></a></li>
+                      <li><a class="dropdown-item subitem" href=""></a></li>
+                      <li><a class="dropdown-item subitem" href=""></a></li>
+
+                  </ul>
+              </li>
+              <li class="sidemenu-list-item dropdown"><a class="a-link" href="#" data-bs-toggle="dropdown"
+                      id="dropLayout">
+                      <i class="fa-regular fa-star pe-3"></i>Yakshna Solutions <i id="icon-style"
+                          class="fa fa-chevron-up"></i>
+                  </a>
+                  <ul class="dropdown-menu submenu ps-3" aria-labelledby="dropLayout">
+
+                      <li><a class="dropdown-item subitem" href="../Yakshna-Solutions/Button.html">Button</a></li>
+                      <li><a class="dropdown-item subitem" href="../Yakshna-Solutions/Card.html">Card</a></li>
+                      <li><a class="dropdown-item subitem" href="../Yakshna-Solutions/Color.html">Color</a></li>
+                      <li><a class="dropdown-item subitem"
+                              href="../Yakshna-Solutions/Grid-system.html">Grid-System</a></li>
+                      <li><a class="dropdown-item subitem"
+                              href="../Yakshna-Solutions/Illustrated-Icons.html">Illustrated-Icons</a>
+                      </li>
+                      <li><a class="dropdown-item subitem" href="../Yakshna-Solutions/Logo.html">Logo</a></li>
+                      <li><a class="dropdown-item subitem"
+                              href="../yakshna-solutions/navigation.html">Navigation</a></li>
+                      <li><a class="dropdown-item subitem" href="../Yakshna-Solutions/Table.html">Table</a></li>
+                      <li><a class="dropdown-item subitem"
+                              href="../Yakshna-Solutions/Typography.html">Typography</a></li>
+
+
+                      <li><a class="dropdown-item subitem" href="../Yakshna-Solutions/Assets.html">Assets</a></li>
+                  </ul>
+              </li>
+              <li class="sidemenu-list-item dropdown "><a class="a-link" href="#" data-bs-toggle="dropdown"
+                      id="dropLayout"> <i class="fa-regular fa-star pe-3"></i>Yakshna Corp
+
+                      <i id="icon-style" class="fa fa-chevron-up"></i>
+                  </a>
+                  <ul class="dropdown-menu submenu ps-3" aria-labelledby="dropLayout">
+                      <li><a class="dropdown-item subitem" href="../YakshnaCorp/Button.html">Button</a></li>
+                      <li><a class="dropdown-item subitem" href="../YakshnaCorp/Card.html">Card</a></li>
+                      <li><a class="dropdown-item subitem" href="../YakshnaCorp/Color.html">Color</a></li>
+                      <li><a class="dropdown-item subitem" href="../YakshnaCorp/Data-Visualization.html">Data-Visualization</a></li>
+                      <li><a class="dropdown-item subitem" href="../YakshnaCorp/Graphics.html">Graphics</a></li>
+                      <li><a class="dropdown-item subitem" href="../YakshnaCorp/Grid-System.html">Grid-System</a></li>
+                      <li><a class="dropdown-item subitem" href="../Yakshna-Solutions/Illustrated-Icons.html">Illustrated-Icons</a>
+                      </li>
+                      <li><a class="dropdown-item subitem" href="../YakshnaCorp/Logo.html">Logo</a></li>
+                      <li><a class="dropdown-item subitem" href="../YakshnaCorp/Navigation.html">Navigation</a></li>
+                      <li><a class="dropdown-item subitem" href="../YakshnaCorp/Tabs.html">Tabs</a></li>
+                      <li><a class="dropdown-item subitem" href="../YakshnaCorp/Typography.html">Typography</a>
+                      </li>
+                      <li><a class="dropdown-item subitem" href="../YakshnaCorp/Assets.html">Assets</a></li>
+                  </ul>
+              </li>
+              <li class="sidemenu-list-item dropdown"><a class="a-link" href="#" data-bs-toggle="dropdown"
+                      id="dropLayout"> <i class="fa-regular fa-star pe-3"></i>Tax2efile
+                      <i id="icon-style" class="fa fa-chevron-up"></i>
+                  </a>
+                  <ul class="dropdown-menu submenu ps-3" aria-labelledby="dropLayout">
+                      <li><a class="dropdown-item subitem" href="../Tax2efile/Button.html">Button</a></li>
+
+                      <li><a class="dropdown-item subitem" href="../Tax2efile/Card.html">Card</a></li>
+                      <li><a class="dropdown-item subitem" href="../Tax2efile/Color.html">Color</a></li>
+                      <li><a class="dropdown-item subitem" href="../Tax2efile/Grid-System.html">Grid-System</a></li>
+                      <li><a class="dropdown-item subitem" href="../Tax2efile/Illustrated-Icons.html">Illustrations-Icons</a> </li>
+                      <li><a class="dropdown-item subitem" href="../Tax2efile/Logo.html">Logo</a></li>
+                      <li><a class="dropdown-item subitem" href="../Tax2efile/Table.html">Table</a></li>
+                      <li><a class="dropdown-item subitem" href="../Tax2efile/Typography.html">Typography</a></li>
+
+                      <li><a class="dropdown-item subitem" href="../Tax2efile/Assets.html">Assets</a></li>
+
+                  </ul>
+              </li>
+              <li class="sidemenu-list-item dropdown"><a class="a-link" href="#" data-bs-toggle="dropdown"
+                      id="dropLayout"> <i class="fa-regular fa-star pe-3"></i>TestWheel
+                      <i id="icon-style" class="fa fa-chevron-up "></i>
+                  </a>
+                  <ul class="dropdown-menu submenu ps-3" aria-labelledby="dropLayout">
+                      <li><a class="dropdown-item subitem" href="../TestWheel/Button.html">Button</a></li>
+
+                      <li><a class="dropdown-item subitem" href="../TestWheel/Call-To-Action.html">Card-to-Action</a></li>
+                      <li><a class="dropdown-item subitem" href="../TestWheel/Card.html">Card</a></li>
+
+                      <li><a class="dropdown-item subitem" href="../TestWheel/Color.html">Color</a></li>
+                      <li><a class="dropdown-item subitem" href="../TestWheel/Data-Visualization.html">Data-Visualization</a></li>
+                      <li><a class="dropdown-item subitem" href="../TestWheel/Graphics.html">Graphics</a></li>
+
+                      <li><a class="dropdown-item subitem" href="../TestWheel/Grid-System.html">Grid-System</a></li>
+                      <li><a class="dropdown-item subitem" href="../Tax2efile/Illustrated-Icons.html">Illustrations-Icons</a> </li>
+                      <li><a class="dropdown-item subitem" href="../Tax2efile/Logo.html">Logo</a></li>
+                      <li><a class="dropdown-item subitem" href="../TestWheel/Navigation.html">Navigation</a></li>
+                      <li><a class="dropdown-item subitem" href="../TestWheel/Table.html">Table</a></li>
+                      <li><a class="dropdown-item subitem" href="../TestWheel/Typography.html">Typography</a></li>
+                      <li><a class="dropdown-item subitem" href="../TestWheel/Assets.html">Assets</a></li>
+                  </ul>
+              </li>
+              <li class="sidemenu-list-item dropdown"><a class="a-link" href="#" data-bs-toggle="dropdown"
+                      id="dropLayout"> <i class="fa-regular fa-star pe-3"></i>MySetAside
+                      <i id="icon-style" class="fa fa-chevron-up "></i>
+                  </a>
+                  <ul class="dropdown-menu submenu ps-3" aria-labelledby="dropLayout">
+                      <li><a class="dropdown-item subitem" href="">Button</a></li>
+                      <li><a class="dropdown-item subitem" href="">Card</a></li>
+                      <li><a class="dropdown-item subitem" href="../MySetAside/Color.html">Color</a></li>
+                      <li><a class="dropdown-item subitem" href="">Data-Visualization</a></li>
+                      <li><a class="dropdown-item subitem" href="">Illustrated-Icons</a></li>
+                      <li><a class="dropdown-item subitem" href="">Logo</a></li>
+                      <li><a class="dropdown-item subitem" href="">Navigation</a></li>
+                      <li><a class="dropdown-item subitem" href="">Typography</a></li>
+                      <li><a class="dropdown-item subitem" href="">Assets</a></li>
+                  </ul>
+              </li>
+              <li class="sidemenu-list-item dropdown"><a class="a-link" href="#" data-bs-toggle="dropdown"
+                      id="dropLayout"> <i class="fa-regular fa-star pe-3"></i>COGO!
+                      <i id="icon-style" class="fa fa-chevron-up "></i>
+                  </a>
+                  <ul class="dropdown-menu submenu ps-3" aria-labelledby="dropLayout">
+                      <li><a class="dropdown-item subitem" href="../COGO/Button.html">Button</a></li>
+                      <li><a class="dropdown-item subitem" href="../COGO/Card.html">Card</a></li>
+                      <li><a class="dropdown-item subitem" href="../COGO/Color.html">Color</a></li>
+                      <li><a class="dropdown-item subitem" href="../COGO/Data-Visualization.html">Data-Visualization</a></li>
+                      <li><a class="dropdown-item subitem" href="../COGO/Illustrated-Icons.html">Illustrated-Icons</a></li>
+                      <li><a class="dropdown-item subitem" href="../COGO/Logo.html">Logo</a></li>
+                      <li><a class="dropdown-item subitem" href="../COGO/Navigation.html">Navigation</a></li>
+                      <li><a class="dropdown-item subitem" href="../COGO/Typography.html">Typography</a></li>
+                      <li><a class="dropdown-item subitem" href="../COGO/Assets.html">Assets</a></li>
+
+                  </ul>
+              </li>
+              <li class="sidemenu-list-item dropdown"><a class="a-link" href="" data-bs-toggle="dropdown"
+                      id="dropLayout"> <i class="fa-regular fa-star pe-3"></i>Miscellaneous
+                      <i id="icon-style" class="fa fa-chevron-up "></i>
+                  </a>
+                  <ul class="dropdown-menu submenu ps-3" aria-labelledby="dropLayout">
+                      <li><a class="dropdown-item subitem"
+                              href="../Miscellaneous/Certification.html">Certification</a></li>
+                      <li><a class="dropdown-item subitem" href="../Miscellaneous/Glyph-Icons.html">Glyph-Icons</a>
+                      </li>
+
+                  </ul>
+              </li>
+              <ul class=" sidemenu-list-bottom">
+                  <li class="sidemenu-list-item-bottom">Yakshna Products</li>
+                  <li class="sidemenu-list-item-bottom">Design System</li>
+                  <li class="sidemenu-list-item-bottom">2023 V1.0.0</li>
+              </ul>
+          </ul>
+      </nav>
+  </aside>
+
+    <main class="content typo-bg">
+      <div class="container-fluid mt-2">
+        <div class="border-bottom py-4 ">
+          <h1 class="heading ">Navigation</h1>
+
+        </div>
+        <div class="main-content">
+          <p class=" btn-hdng pt-4">Local navigation</p>
+          <!-- <p class="btn-txt">A horizontal navigation component for yakshna-solutions</p> -->
+          <p class="btn-txt">A navigation bar appears at the top of a window or screen, helping people navigate through
+            a hierarchy of content. A navigation bar provides a natural place to display a title that can help people
+            orient themselves in your app or game, and it can also include controls that affect the content below it.
+          </p>
+
+            <!-- <h4 class="mt-4">Content</h4>
+
+          <ul class="mt-4">
+            <li class="btn-txt">Keep the names of the navigation items brief and clear, rather than trying to be
+              overly specific.</li>
+            <li class="btn-txt mt-4">Try to keep your app’s nav in a consistent order across platforms. This sort
+              of consistency increases predictability which drives customer confidence, thus retaining and engaging
+              them.</li>
+          </ul>
+          <h5 class="mt-4">Implementation</h5> -->
+
+        </div>
+        <div class="row">
+          <h4 class="py-4 pt-5">Example</h4>
+
+        </div>
+        <header class="yak-nav">
+          <nav class="navbar navbar-expand-xxl navbar-light bg-white py-4">
+            <div class="container-fluid">
+
+              <!-- Brand Logo -->
+              <a class="navbar-brand" href="#">
+                <img class="logo" src="../images/logo.webp" alt="Yakshna-Logo" width="" height=""></a>
+
+              <!-- Collapse button -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"
+                aria-expanded="false" aria-label="Navigation Bar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!-- Collapse -->
+              <div class="collapse navbar-collapse justify-content-end px-2 pt-4" id="collapsibleNavbar">
+                <ul class="navbar-nav gap-xl-3 gap-2 pt-3">
+                  <li class="nav-item dropdown" data-bs-toggle="dropdown"><a class="nav-link dropdown-toggle" href=""
+                      role="button" id="#dropdown-abtUs">ABOUT US</a>
+                    <ul class="dropdown-menu drop-menu" aria-labelledby="dropdown-abtUs">
+                      <li><a class="dropdown-item drop-item" href="../about-us">About Us</a></li>
+                      <li><a class="dropdown-item drop-item" href="../partners">Our Partners</a></li>
+                      <li><a class="dropdown-item drop-item " href="../customers">Our Clients</a></li>
+                      <li class="dropdown dropend">
+                        <a class="dropdown-item drop-item dropdown-toggle dropdown-li" role="button"
+                          data-bs-toggle="dropdown" href="#" id="#abt-sub">Certifications</a>
+                        <ul class="dropdown-menu drop-menu submenu" aria-labelledby="abt-sub">
+                          <li><a class="dropdown-item drop-item" href="../cmmi-services-certification">CMMISVC</a></li>
+                          <li><a class="dropdown-item drop-item" href="../cmmi-certification">CMMI</a></li>
+                          <li><a class="dropdown-item drop-item" href="../iso-certified-company">ISO</a></li>
+                        </ul>
+                      </li>
+                      <li><a class="dropdown-item drop-item " href="../supporting">Supporting</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" role="button"
+                      data-bs-toggle="dropdown">SERVICES</a>
+                    <ul class="dropdown-menu drop-menu">
+                      <li><a class="dropdown-item drop-item" href="../it-services">IT Services</a></li>
+                      <li><a class="dropdown-item drop-item" href="../agile">Agile Delivery</a></li>
+                      <li><a class="dropdown-item drop-item" href="../devsecops">DevSecOps</a></li>
+                      <li><a class="dropdown-item drop-item" href="../cyber-security">Cyber Security</a></li>
+                      <li><a class="dropdown-item drop-item" href="../cloud-computing">Cloud Computing</a></li>
+                      <li><a class="dropdown-item drop-item" href="../data-strategy">Data Strategy</a></li>
+                      <li><a class="dropdown-item drop-item" href="../system-integration">System Integration</a></li>
+                      <li><a class="dropdown-item drop-item" href="../emerging-technologies">Emerging Technologies</a>
+                      </li>
+                      <li><a class="dropdown-item drop-item" href="../healthcare">Health IT Services</a></li>
+                      <li><a class="dropdown-item drop-item" href="../consulting">IT Services Management</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" role="button"
+                      data-bs-toggle="dropdown">CONTRACT VEHICLES</a>
+                    <ul class="dropdown-menu drop-menu">
+                      <li><a class="dropdown-item drop-item" href="../gsa-contract">GSA - Federal Supply</a></li>
+                      <li><a class="dropdown-item drop-item" href="../usaf-sbeas">SBEAS – USAF </a></li>
+                      <li><a class="dropdown-item drop-item" href="../dia-site">DIA-SITE-III</a></li>
+                      <li><a class="dropdown-item drop-item" href="../army">ARMY ITES-3S</a></li>
+                      <li><a class="dropdown-item drop-item" href="../jaic">JAIC</a></li>
+                      <li><a class="dropdown-item drop-item" href="../ntis">NTIS</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" role="button"
+                      data-bs-toggle="dropdown">CAREERS</a>
+                    <ul class="dropdown-menu drop-menu">
+                      <li><a class="dropdown-item drop-item" href="../careers">Job Openings</a></li>
+                      <li><a class="dropdown-item drop-item" href="../benefits">Benefits at YSI</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT US</a>
+                  </li>
+                  <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" role="button"
+                      data-bs-toggle="dropdown">
+                      <!-- <i class="far fa-user"></i>  -->
+                      EMPLOYEE LOGIN</a>
+                    <ul class="dropdown-menu drop-menu">
+                      <li><a class="dropdown-item drop-item" href="https://yakshna.sharepoint.com/"
+                          target="_blank">SharePoint Library</a></li>
+                      <li><a class="dropdown-item drop-item" href="http://timesheet.yakshna.com/"
+                          target="_blank">TimeSheet / Status Report</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </nav>
+        </header>
+
+        <div class="container-fluid">
+
+          <div class="row mt-5">
+            <div class="col-md-6  code-box h-200">
+              <div class="fix-btn">
+
+                <button onclick="copy_data(select_txt1)" class="copybtn">Copy</button>
+              </div>
+              <pre id="select_txt1"><code >
+     &lt;header class="fixed-top yak-nav"&gt;
+&lt;nav class="navbar navbar-expand-xl navbar-light py-0"&gt;
+&lt;div class="container-fluid"&gt;
+
+
+&lt;a class="navbar-brand" href="#"&gt;
+&lt;img class="logo" src="/images/logo.webp" alt="Yakshna-Logo" width="" height=""&gt;&lt;/a&gt;
+
+
+&lt;button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-expanded="false" aria-label="Navigation Bar"&gt;
+&lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+&lt;/button&gt;
+
+&lt;div class="collapse navbar-collapse justify-content-end px-2 pt-4" id="collapsibleNavbar"&gt;
+&lt;ul class="navbar-nav gap-xl-3 gap-2 pt-3"&gt;       
+&lt;li class="nav-item dropdown" data-bs-toggle="dropdown"&gt;&lt;a class="nav-link dropdown-toggle" href="" role="button" id="#dropdown-abtUs"&gt;ABOUT US&lt;/a&gt;
+&lt;ul class="dropdown-menu drop-menu" aria-labelledby="dropdown-abtUs"&gt;
+&lt;li&gt;&lt;a class="dropdown-item drop-item" href="../about-us"&gt;About Us&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="dropdown-item drop-item" href="../partners"&gt;Our Partners&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="dropdown-item drop-item " href="../customers"&gt;Our Clients&lt;/a&gt;&lt;/li&gt;
+&lt;li class="dropdown dropend"&gt;
+&lt;a class="dropdown-item drop-item dropdown-toggle dropdown-li" role="button" data-bs-toggle="dropdown" href="#" id="#abt-sub"&gt;Certifications&lt;/a&gt;
+&lt;ul class="dropdown-menu drop-menu submenu" aria-labelledby="abt-sub"&gt;
+    &lt;li&gt;&lt;a class="dropdown-item drop-item" href="../cmmi-services-certification"&gt;CMMISVC&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a class="dropdown-item drop-item" href="../cmmi-certification"&gt;CMMI&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a class="dropdown-item drop-item" href="../iso-certified-company"&gt;ISO&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a class="dropdown-item drop-item " href="../supporting"&gt;Supporting&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class="nav-item dropdown"&gt;&lt;a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"&gt;SERVICES&lt;/a&gt;
+&lt;ul class="dropdown-menu drop-menu"&gt;
+&lt;li&gt;&lt;a class="dropdown-item drop-item" href="../it-services"&gt;IT Services&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="dropdown-item drop-item" href="../agile"&gt;Agile Delivery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="dropdown-item drop-item" href="../devsecops"&gt;DevSecOps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="dropdown-item drop-item" href="../cyber-security"&gt;Cyber Security&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="dropdown-item drop-item" href="../cloud-computing"&gt;Cloud Computing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="dropdown-item drop-item" href="../data-strategy"&gt;Data Strategy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="dropdown-item drop-item" href="../system-integration"&gt;System Integration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="dropdown-item drop-item" href="../emerging-technologies"&gt;Emerging Technologies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="dropdown-item drop-item" href="../healthcare"&gt;Health IT Services&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="dropdown-item drop-item" href="../consulting"&gt;IT Services Management&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class="nav-item dropdown"&gt;&lt;a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"&gt;CONTRACT VEHICLES&lt;/a&gt;
+&lt;ul class="dropdown-menu drop-menu"&gt;
+&lt;li&gt;&lt;a class="dropdown-item drop-item" href="../gsa-contract"&gt;GSA - Federal Supply&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="dropdown-item drop-item" href="../usaf-sbeas"&gt;SBEAS  – USAF &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="dropdown-item drop-item" href="../dia-site"&gt;DIA-SITE-III&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="dropdown-item drop-item" href="../army"&gt;ARMY ITES-3S&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="dropdown-item drop-item" href="../jaic"&gt;JAIC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="dropdown-item drop-item" href="../ntis"&gt;NTIS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class="nav-item dropdown"&gt;&lt;a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"&gt;CAREERS&lt;/a&gt;
+&lt;ul class="dropdown-menu drop-menu"&gt;
+&lt;li&gt;&lt;a class="dropdown-item drop-item" href="../careers"&gt;Job Openings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="dropdown-item drop-item" href="../benefits"&gt;Benefits at YSI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class="nav-item"&gt;
+&lt;a class="nav-link" href="#"&gt;CONTACT US&lt;/a&gt;
+&lt;/li&gt;      
+&lt;li class="nav-item dropdown"&gt;&lt;a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"&gt;&lt;i class="far fa-user"&gt;&lt;/i&gt; EMPLOYEE LOGIN&lt;/a&gt;
+&lt;ul class="dropdown-menu drop-menu"&gt;
+&lt;li&gt;&lt;a class="dropdown-item drop-item" href="https://yakshna.sharepoint.com/" target="_blank"&gt;SharePoint Library&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="dropdown-item drop-item" href="http://timesheet.yakshna.com/" target="_blank"&gt;TimeSheet / Status Report&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/nav&gt;
+&lt;/header&gt;
+        </code></pre>
+
+            </div>
+            <div class="col-md-6 code-box">
+              <div class="fix-btn">
+
+                <button onclick="copy_data(select_txt2)" class="copybtn">Copy</button>
+              </div>
+              <pre id="select_txt2"><code class="language-css">
+     
+
+.yak-nav .navbar-expand-xl .nav-link {
+   font: normal normal bold 14px/26px Open Sans,sans-serif;
+   color: #1F3E6D !important;
+}
+.yak-nav .nav-link:hover {
+   text-underline-offset: 5px !important;
+   text-decoration: 2px underline #3b96b6 !important; 
+}
+
+.yak-nav .drop-menu {
+   background-color: #153564 !important;
+}
+.yak-nav .drop-item.active, .drop-item:active {
+   background-color: #e9ecef !important;
+}
+.yak-nav .drop-item, .dropdown-li { 
+   color: #F5F5F5 !important;
+   padding: 10px 15px !important;
+}
+.yak-nav a{
+   text-decoration: none !important;
+}
+.yak-nav .drop-item:focus, .drop-item:hover {
+   color: #1F3E6D !important;
+   font-weight: bold;
+   text-underline-offset: 3px !important;
+   text-decoration: 2px underline #3b96b6 !important;
+}
+
+
+@media (max-width:1299px) {
+   .yak-nav .nav-link {
+       height: auto;
+       padding: 0 !important;
+   }
+   .yak-nav .nav-item:last-child {
+       margin-bottom:15px; 
+   }
+   .yak-nav .drop-item {
+       padding: 0.3rem 1rem !important;
+       text-decoration: none !important;
+   }
+ 
+    .submenu {
+      
+       box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+       margin: 10px 10px 10px 30px !important;
+       padding: 0%;
+   }
+   .yak-nav .drop-menu > li > a:after {
+       transform: rotate(90deg);
+   }
+}
+@media (min-width:1300px) {
+   .yak-nav .nav-link {
+       height: 70px!important
+   }
+   .yak-nav .dropend:hover > .dropdown-menu {
+       position: absolute!important;
+       top: 0;
+       left: 100%;
+   }
+   .yak-nav .dropdown .dropdown-menu {
+     display: none;
+   }
+   .yak-nav .dropdown:hover > .dropdown-menu,
+   .dropend:hover > .submenu {
+     display: block;
+   
+   }
+}
+   
+
+  </code></pre>
+            </div>
+
+
+          </div>
+        </div>
+
+        <!-- //footer -->
+        <div class="container-fluid mt-5 pt-5  main-footer ">
+          <div class="border-bottom ml-md-2">
+            <div class="row">
+
+              <div class="col-md-12 col-xl-4 col-lg-4">
+                <a href="home" class="navbar-brand">
+                  <img src="../images/footer-logo.webp" alt="Footer Logo" title="" class="footer-logos"></a>
+              </div>
+              <div class="col-md-12 col-xl-6 col-lg-6 mt-md-4 mt-lg-0">
+                <div class="row pt-3 pt-lg-0">
+
+                  <div class="col-md-4 col-xl-4 col-lg-4">
+                    <h3 class="mb-3 mt-1">CONTACT US</h3>
+                    <ul class="addrss list-unstyled text-decoration-none">
+                      <li>
+
+                        950 Herndon
+                        Parkway,
+
+                        <br>
+                        <span class="addrss-pl">Suite 410</span>
+                        <br>
+                        <span class="addrss-pl">Herndon, VA 20170.</span>
+                      </li>
+                      <li>
+
+                        <a href="mailto:info@yakshna.com">info@yakshna.com</a>
+                      </li>
+                      <li>
+
+                        703-880-8408
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4 col-xl-4 col-lg-4">
+                    <h3 class="mb-3 mt-1">SERVICES</h3>
+                    <ul class="list-unstyled text-decoration-none">
+                      <li><a href="../agile">Agile Delivery</a></li>
+                      <li><a href="../devsecops">DevSecOps</a></li>
+                      <li><a href="../cyber-security">Cyber Security</a></li>
+                      <li><a href="../cloud-computing">Cloud Computing</a></li>
+                      <li><a href="../data-strategy">Data Strategy</a></li>
+                      <li><a href="../system-integration">System Integration</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4 col-xl-3 col-lg-4">
+                    <h3 class="mb-3 mt-1">LEARN MORE</h3>
+                    <ul class="list-unstyled text-decoration-none">
+                      <li><a href="../about-us">About Us</a></li>
+                      <li><a href="../contract-vehicle">Contract Vehicles</a></li>
+                      <li><a href="../partners">Partners</a></li>
+                      <li><a href="../customers">Customers</a></li>
+                      <li><a href="../careers">Careers</a></li>
+                      <li><a href="../contact-us">Contact Us</a></li>
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-md-12 col-xl-2 col-lg-2 contact">
+                <h3 class="mb-3 mt-1  d-flex justify-content-lg-end  ">FOLLOW US</h3>
+                <ul class="social-icon mt-2 list-unstyled d-flex justify-content-lg-end  ">
+                  <li class="pe-3"><a href="" target="_blank" title="Twitter" rel="nofollow" class="twitter"> <i class="fa-brands fa-x-twitter"></i></a></li>
+                  <li class="pe-3"><a href="" target="_blank" title="Facebook" rel="nofollow" class="facebook"> <i class="fa-brands fa-facebook-f"></i> </a></li>
+
+                  <li class="pe-3"><a href="" target="_blank" title="Linkedin" rel="nofollow" class="linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid main-footer">
+          <div class="row ml-lg-1 pt-3">
+            <div class=" copyright-txt col-lg-6 ">
+              <p class="pl-md-1 pl-lg-0">Copyright &copy;2023 yakshna-solutions, Inc. All Rights Reserved</p>
+            </div>
+            <div class=" terms ftr-priv col-lg-6 d-flex justify-content-lg-end  ">
+              <p class="pl-md-1"> <a href="">Terms and Conditions</a> |
+                <a href="">Privacy Policy</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+
+          <div class="row mt-5">
+            <div class="col-md-6  code-box h-200 ">
+              <div class="fix-btn">
+
+                <button onclick="copy_data(select_txt3)" class="copybtn">Copy</button>
+              </div>
+              <pre id="select_txt3"><code >
+&lt;div class="container-fluid mt-5 pt-5 main-footer"&gt;
+&lt;div class="border-bottom ml-md-2"&gt;
+&lt;div class="row"&gt;
+&lt;div class="col-md-12 col-xl-4 col-lg-4"&gt;
+&lt;a href="home" class="navbar-brand"&gt;
+&lt;img src="/images/footer-logo.webp" alt="Footer Logo" title="" class="footer-logos"&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class="col-md-12 col-xl-6 col-lg-6 mt-md-4 mt-lg-0"&gt;
+&lt;div class="row pt-3 pt-lg-0"&gt;
+&lt;div class="col-md-4 col-xl-4 col-lg-4"&gt;
+&lt;h3 class="mb-3 mt-1"&gt;CONTACT US&lt;/h3&gt;
+&lt;ul class="addrss list-unstyled text-decoration-none"&gt;
+&lt;li&gt;
+950 Herndon
+Parkway,
+&lt;br&gt;
+&lt;span class="addrss-pl"&gt;Suite 410&lt;/span&gt;
+&lt;br&gt;
+&lt;span class="addrss-pl"&gt;Herndon, VA 20170.&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+&lt;a href="mailto:info@yakshna.com"&gt;info@yakshna.com&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+703-880-8408
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="col-md-4 col-xl-4 col-lg-4"&gt;
+&lt;h3 class="mb-3 mt-1"&gt;SERVICES&lt;/h3&gt;
+&lt;ul class="list-unstyled text-decoration-none"&gt;
+&lt;li&gt;&lt;a href="../agile"&gt;Agile Delivery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="../devsecops"&gt;DevSecOps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="../cyber-security"&gt;Cyber Security&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="../cloud-computing"&gt;Cloud Computing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="../data-strategy"&gt;Data Strategy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="../system-integration"&gt;System Integration&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="col-md-4 col-xl-3 col-lg-4"&gt;
+&lt;h3 class="mb-3 mt-1"&gt;LEARN MORE&lt;/h3&gt;
+&lt;ul class="list-unstyled text-decoration-none"&gt;
+&lt;li&gt;&lt;a href="../about-us"&gt;About Us&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="../contract-vehicle"&gt;Contract Vehicles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="../partners"&gt;Partners&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="../customers"&gt;Customers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="../careers"&gt;Careers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="../contact-us"&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="col-md-4 col-md-12 col-xl-2 col-lg-2 contact"&gt;
+&lt;h3 class="mb-3 mt-1 d-flex justify-content-lg-end "&gt;FOLLOW US&lt;/h3&gt;
+&lt;ul class="social-icon mt-2 list-unstyled d-flex justify-content-lg-end "&gt;
+&lt;li class="pr-3"&gt;&lt;a href="" target="_blank" title="Twitter" rel="nofollow" class="twitter"&gt;&lt;i
+class="fa fa-twitter" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class="pr-3"&gt;&lt;a href="" target="_blank" title="Facebook" rel="nofollow" class="facebook"&gt;&lt;i
+class="fa fa-facebook" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+
+&lt;li class=""&gt;&lt;a href="" target="_blank" title="Linkedin" rel="nofollow" class="linkedin"&gt;&lt;i
+class="fa fa-linkedin" aria-hidden="true"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="container-fluid main-footer"&gt;
+&lt;div class="row ml-lg-1 pt-3"&gt;
+&lt;div class=" copyright-txt col-lg-6 "&gt;
+&lt;p class="pl-md-1 pl-lg-0"&gt;Copyright &copy;2023 yakshna-solutions, Inc. All Rights Reserved&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=" terms ftr-priv col-lg-6 d-flex justify-content-lg-end "&gt;
+&lt;p class="pl-md-1"&gt; &lt;a href=""&gt;Terms and Conditions&lt;/a&gt; |
+&lt;a href=""&gt;Privacy Policy&lt;/a&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+          </code></pre>
+
+            </div>
+            <div class="col-md-6 code-box">
+              <div class="fix-btn">
+
+                <button onclick="copy_data(select_txt4)" class="copybtn">Copy</button>
+              </div>
+              <pre id="select_txt4"><code class="language-css">
+.main-footer {
+height: auto;
+opacity: 1;
+background: #1F3E6D 0% 0% no-repeat padding-box;
+}
+
+.main-footer h3 {
+text-align: left;
+font: normal normal bold 14px/20px Open Sans, sans-serif;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+opacity: 1;
+text-decoration-thickness: 2px !important;
+text-decoration-color: #0EA8CE !important;
+text-decoration: underline;
+text-underline-position: under;
+}
+
+.main-footer ul li, .main-footer ul li span {
+margin-bottom: 10px;
+font-size: 17px;
+text-align: left;
+font: normal normal normal 14px/15px Open Sans, sans-serif;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+line-height: 1.3;
+}
+.main-footer p, .main-footer a {
+color: #fff;
+text-decoration: none;
+
+}
+
+.social-icon li .fa {
+color: #fff;
+font-size: 16px;
+padding-left:20px
+}
+.social-icon li {
+display: inline;
+}
+  
+    </code></pre>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="main-content py-5">
+          <h4 class="border-bottom pb-3">Best Practices</h4>
+
+          <p class="btn-txt mt-4">Don’t overload your navigation pane. Too many items in the Nav is indicative
+            of an app that is poorly
+            organized or trying to do too much.</p>
+          <p class="btn-txt mt-4">Use the title area to describe the current window if it provides useful context. A
+            title helps people confirm their location as they navigate your app. </p>
+
+        </div>
+
+
+
+
+
+      </div>
+
+    </main>
+  </div>
+  <script src="../js/jquery.min.js"></script>
+  <script>
+    const menu_toggle = document.querySelector('.menu-toggle');
+    const sidebar = document.querySelector('.sidebar');
+
+    menu_toggle.addEventListener('click', () => {
+      menu_toggle.classList.toggle('is-active');
+      sidebar.classList.toggle('is-active');
+    });
+  </script>
+  <script>
+    function copy_data(containerid) {
+      var range = document.createRange();
+      range.selectNode(containerid);
+      window.getSelection().removeAllRanges();
+      window.getSelection().addRange(range);
+      document.execCommand("copy");
+      window.getSelection().removeAllRanges();
+
+    }
+  </script>
+
+  <script>
+    $('.a-link').on('click', function () {
+      $(this).toggleClass('active')
+    });
+  </script>
+
+</body>
+
+</html>
